@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Crafts - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Handmade Crafts</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Unique Handmade Crafts</h2>
+        <p>Discover beautifully handcrafted items made with love and care.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Handmade Pottery">
+                <p>Handmade Pottery - $25</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Knitted Scarf">
+                <p>Knitted Scarf - $30</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@handmadecrafts.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Handmade Crafts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
